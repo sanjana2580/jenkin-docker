@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_HUB_USER = 'sanjana255!'
+        DOCKER_HUB_USER = 'sanjana255'
         DOCKER_HUB_REPO = 'mock03'
         IMAGE_NAME = 'nginx'
         CONTAINER_NAME = 'app'
